@@ -1,0 +1,194 @@
+<ion-content class="home-content">
+  <ion-slides class="card-slides" pager="true" autoplay="4000" loop="true">
+    <ion-slide class="card-slide">
+      <img class="slide-image" src="http://static.rcitravel.com.br/720X500_APP.jpg" />
+    </ion-slide>
+    <ion-slide class="card-slide">
+      <img class="slide-image" src="http://static.rcitravel.com.br/02.jpg" />
+    </ion-slide>
+    <ion-slide class="card-slide">
+      <img class="slide-image" src="http://static.rcitravel.com.br/03.jpg" />
+    </ion-slide>
+    <ion-slide class="card-slide">
+      <img class="slide-image" src="http://static.rcitravel.com.br/04.jpg" />
+    </ion-slide>
+    <ion-slide class="card-slide">
+      <img class="slide-image" src="http://static.rcitravel.com.br/05.jpg" />
+    </ion-slide>
+  </ion-slides>
+  <ion-row class="grid-categories">
+    <ion-col col-4 class="category-item air">
+      <ion-row class="heading-row">
+        <ion-col no-padding width-100 tappable (click)="goFlightSearch()">
+          <ion-icon name="plane"></ion-icon>
+          <h2 class="category-title">Aéreo</h2>
+        </ion-col>
+      </ion-row>
+    </ion-col>
+    <ion-col col-4 class="category-item car">
+      <ion-row class="heading-row">
+        <ion-col no-padding width-100 tappable (click)="goHotelList()">
+          <ion-icon name="home"></ion-icon>
+          <h2 class="category-title">Hotel</h2>
+        </ion-col>
+      </ion-row>
+    </ion-col>
+    <ion-col col-4 class="category-item hotel">
+      <ion-row class="heading-row">
+        <ion-col no-padding width-100 tappable (click)="goSearchCar()">
+          <ion-icon name="car"></ion-icon>
+          <h2 class="category-title">Carros</h2>
+        </ion-col>
+      </ion-row>
+    </ion-col>
+  </ion-row>
+  <ion-item-group class="home-widget">
+    <ion-item-divider color="primary">
+      <h2 ion-text class="bold text-white">
+        PROMOÇÕES DO DIA
+      </h2>
+    </ion-item-divider>
+    <ion-item>
+        <ion-grid class="list-hotels primary-bg" no-padding>
+          <ion-row no-padding>
+            <ion-col col-6 tappable>
+              <div class="hotel-bg"style="background-image:url('https://media-ic.staticontent.com/media/pictures/8f88b361-d1e8-46f7-bc8e-9df5d2a7134b/1120x700');">
+                <div class="bg-filter">
+                  <div class="discount">25%
+                  </div>
+                  <div class="bottom-info">
+  
+                    <div>
+                      <div class="pull-left">
+                        <h5 ion-text class="text-white">Copacabana</h5>
+                      </div>
+                      <div class="pull-right">
+                        <span class="origin-price hide-sm">525</span>
+                      </div>
+                      <div class="clear"></div>
+                    </div>
+  
+                    <div>
+                      <div class="pull-left">
+                        <ion-badge class="square" color="secondary">5</ion-badge>
+                        <span class="rating-label text-white" ion-text> of 5 - guest rating</span>
+                      </div>
+                      <div class="pull-right">
+                        <span class="origin-price hide-lg">100</span>
+                        <span class="price text-white" ion-text>55</span>
+                        <span class="sale-price" ion-text class="text-white">22</span>
+                      </div>
+                      <div class="clear"></div>
+                    </div>
+                  </div>
+  
+                </div>
+              </div>
+            </ion-col>
+            <ion-col col-6 tappable>
+                <div class="hotel-bg"style="background-image:url('https://media-ic.staticontent.com/media/pictures/8f88b361-d1e8-46f7-bc8e-9df5d2a7134b/1120x700');">
+                  <div class="bg-filter">
+                    <div class="discount">25%
+                    </div>
+                    <div class="bottom-info">
+    
+                      <div>
+                        <div class="pull-left">
+                          <h5 ion-text class="text-white">Copacabana</h5>
+                        </div>
+                        <div class="pull-right">
+                          <span class="origin-price hide-sm">525</span>
+                        </div>
+                        <div class="clear"></div>
+                      </div>
+    
+                      <div>
+                        <div class="pull-left">
+                          <ion-badge class="square" color="secondary">5</ion-badge>
+                          <span class="rating-label text-white" ion-text> of 5 - guest rating</span>
+                        </div>
+                        <div class="pull-right">
+                          <span class="origin-price hide-lg">100</span>
+                          <span class="price text-white" ion-text>55</span>
+                          <span class="sale-price" ion-text class="text-white">22</span>
+                        </div>
+                        <div class="clear"></div>
+                      </div>
+                    </div>
+    
+                  </div>
+                </div>
+              </ion-col>
+              <ion-col col-6 tappable>
+                  <div class="hotel-bg"style="background-image:url('https://media-ic.staticontent.com/media/pictures/8f88b361-d1e8-46f7-bc8e-9df5d2a7134b/1120x700');">
+                    <div class="bg-filter">
+                      <div class="discount">25%
+                      </div>
+                      <div class="bottom-info">
+      
+                        <div>
+                          <div class="pull-left">
+                            <h5 ion-text class="text-white">Copacabana</h5>
+                          </div>
+                          <div class="pull-right">
+                            <span class="origin-price hide-sm">525</span>
+                          </div>
+                          <div class="clear"></div>
+                        </div>
+      
+                        <div>
+                          <div class="pull-left">
+                            <ion-badge class="square" color="secondary">5</ion-badge>
+                            <span class="rating-label text-white" ion-text> of 5 - guest rating</span>
+                          </div>
+                          <div class="pull-right">
+                            <span class="origin-price hide-lg">100</span>
+                            <span class="price text-white" ion-text>55</span>
+                            <span class="sale-price" ion-text class="text-white">22</span>
+                          </div>
+                          <div class="clear"></div>
+                        </div>
+                      </div>
+      
+                    </div>
+                  </div>
+                </ion-col>
+                <ion-col col-6 tappable>
+                    <div class="hotel-bg"style="background-image:url('https://media-ic.staticontent.com/media/pictures/8f88b361-d1e8-46f7-bc8e-9df5d2a7134b/1120x700');">
+                      <div class="bg-filter">
+                        <div class="discount">25%
+                        </div>
+                        <div class="bottom-info">
+        
+                          <div>
+                            <div class="pull-left">
+                              <h5 ion-text class="text-white">Copacabana</h5>
+                            </div>
+                            <div class="pull-right">
+                              <span class="origin-price hide-sm">525</span>
+                            </div>
+                            <div class="clear"></div>
+                          </div>
+        
+                          <div>
+                            <div class="pull-left">
+                              <ion-badge class="square" color="secondary">5</ion-badge>
+                              <span class="rating-label text-white" ion-text> of 5 - guest rating</span>
+                            </div>
+                            <div class="pull-right">
+                              <span class="origin-price hide-lg">100</span>
+                              <span class="price text-white" ion-text>55</span>
+                              <span class="sale-price" ion-text class="text-white">22</span>
+                            </div>
+                            <div class="clear"></div>
+                          </div>
+                        </div>
+        
+                      </div>
+                    </div>
+                  </ion-col>                                          
+          </ion-row>
+        </ion-grid>  
+      </ion-item>    
+  </ion-item-group>
+</ion-content>

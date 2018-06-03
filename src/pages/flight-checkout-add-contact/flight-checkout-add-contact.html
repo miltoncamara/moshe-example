@@ -1,0 +1,55 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Adicionar Contato</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only tappable (click)="addContact()">
+        <ion-icon name="checkmark"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <form>
+    <ion-item>
+      <ion-label stacked>Nome</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label stacked>Último Nome</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+    <ion-row>
+      <ion-col width-50>
+        <ion-item>
+          <ion-label stacked>Sexo</ion-label>
+          <ion-input></ion-input>
+        </ion-item>
+      </ion-col>
+      <ion-col width-50>
+        <ion-item>
+          <ion-label stacked>Nacionalidade</ion-label>
+          <ion-input></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col width-50>
+        <ion-item>
+          <ion-label stacked>Tipo Documento</ion-label>
+          <ion-input></ion-input>
+        </ion-item>
+      </ion-col>
+      <ion-col width-50>
+        <ion-item>
+          <ion-label stacked>Número</ion-label>
+          <ion-input></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-item>
+      <ion-label stacked>Data de Nascimento</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+  </form>
+</ion-content>

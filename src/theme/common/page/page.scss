@@ -1,0 +1,47 @@
+.page-content {
+  background-color: color($colors, background, base);
+  .form-data-content {
+    padding: 0px;
+    margin-bottom: 20px;
+    ion-item {
+      @include basic-select-style(color($colors, background, base), $theme-color-3, $white-d);
+      border: none !important;
+      padding: 0px 20px;
+      @include element-shadow();
+      .item-inner {
+        border: none;
+        padding: 0px;
+        ion-label {
+          margin: 6px 0px 4px;
+          font-size: 1.1rem;
+          line-height: 1.2;
+          letter-spacing: 0.5px;
+          color: $white-d;
+        }
+        ion-input input,
+        ion-textarea textarea {
+          margin: 0px;
+          margin-bottom: 8px;
+          padding: 0px;
+          width: 100%;
+          font-size: 1.6rem;
+          line-height: 1.4;
+          color: $theme-color-3;
+        }
+      }
+      &.item-select {
+        .item-inner {
+          ion-label {
+            font-size: 1.4rem;
+            letter-spacing: 0.2px;
+            margin: 0px;
+            line-height: initial;
+          }
+        }
+      }
+    }
+  }
+  .page-form {
+    margin-bottom: 80px;
+  }
+}

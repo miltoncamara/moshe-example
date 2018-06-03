@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Aluguel de Carros</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content class="form-content">
+  <form class="form-form">
+    <div class="data-content">
+      <ion-item>
+        <ion-label stacked>Local de Retirada</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label stacked>Local de Devolução</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label stacked>Data e Hora de Retirada</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+      <ion-item>
+          <ion-label stacked>Data e Hora de Devolução</ion-label>
+          <ion-input type="text"></ion-input>
+        </ion-item>      
+    </div>
+  </form>
+</ion-content>
+<ion-footer>
+  <button ion-button icon-start block no-margin color="primary" tappable (click)="doSearch()">
+    Pesquisar Carros
+  </button>
+</ion-footer>

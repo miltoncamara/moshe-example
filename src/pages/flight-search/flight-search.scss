@@ -1,0 +1,16 @@
+page-flight-search {
+  ion-header {
+    ion-toolbar {
+      ion-segment {
+        ion-segment-button.segment-activated {
+          color: color($colors, light) !important;
+        }
+      }
+    }
+  }
+  ion-footer {
+    button {
+      border-radius: 0 !important;
+    }
+  }
+}

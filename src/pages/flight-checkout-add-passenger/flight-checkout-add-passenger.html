@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Adicionar Passageiros</ion-title>
+    <ion-buttons end>
+        <button ion-button icon-only tappable (click)="addPassenger()">
+          <ion-icon name="checkmark"></ion-icon>
+        </button>
+      </ion-buttons>    
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="form-content">
+  <form class="form-form">
+    <div class="data-content">
+      <ion-item>
+        <ion-label stacked>Firstname</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label stacked>Lastname</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+    </div>
+  </form>
+</ion-content>

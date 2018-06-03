@@ -1,0 +1,919 @@
+{
+  "AirResponseData": {
+    "AnacDetails": [null],
+    "FlightGroups": [{
+      "ArrivalTime": {
+        "Day": 21,
+        "DayOfWeek": 6,
+        "Month": 4,
+        "Year": 2018,
+        "Hour": 7,
+        "Millisecond": 0,
+        "Minutes": 25,
+        "Seconds": 0
+      },
+      "DepartureTime": {
+        "Day": 20,
+        "DayOfWeek": 5,
+        "Month": 4,
+        "Year": 2018,
+        "Hour": 23,
+        "Millisecond": 0,
+        "Minutes": 55,
+        "Seconds": 0
+      },
+      "DestinationId": 2699571,
+      "DurationInMinutes": 510,
+      "ExternalProperties": {
+        "codeShareDetails-Company": "O6"
+      },
+      "FareOption": {
+        "BaggagesIncluded": 3,
+        "ClassOfService": "B",
+        "ExternalProperties": {
+          "ExchangeRate.Old": "1",
+          "Currency.Old": "BRL",
+          "FareAmount.Old": "4718.99",
+          "TaxAmount.Old": "229.39",
+          "RuleNumber": null
+        },
+        "FareBasis": "BLI00IA",
+        "TripType": 0
+      },
+      "Flights": [{
+        "AnacDetailsIndex": 0,
+        "ArrivalAirportId": 2699571,
+        "ArrivalDateTime": {
+          "Day": 21,
+          "DayOfWeek": 6,
+          "Month": 4,
+          "Year": 2018,
+          "Hour": 7,
+          "Millisecond": 0,
+          "Minutes": 25,
+          "Seconds": 0
+        },
+        "CabinType": 2,
+        "CiaCode": "O6",
+        "ClassOfService": "B",
+        "DepartureAirportId": 2702587,
+        "DepartureDateTime": {
+          "Day": 20,
+          "DayOfWeek": 5,
+          "Month": 4,
+          "Year": 2018,
+          "Hour": 23,
+          "Millisecond": 0,
+          "Minutes": 55,
+          "Seconds": 0
+        },
+        "DurationInMinutes": 510,
+        "ExternalProperties": {},
+        "FlightNumber": "8510",
+        "Legs": []
+      }],
+      "IssuerCia": "O6",
+      "OriginId": 2702587,
+      "SourceType": "AviancaAmadeus"
+    }, {
+      "ArrivalTime": {
+        "Day": 21,
+        "DayOfWeek": 6,
+        "Month": 4,
+        "Year": 2018,
+        "Hour": 5,
+        "Millisecond": 0,
+        "Minutes": 0,
+        "Seconds": 0
+      },
+      "DepartureTime": {
+        "Day": 20,
+        "DayOfWeek": 5,
+        "Month": 4,
+        "Year": 2018,
+        "Hour": 21,
+        "Millisecond": 0,
+        "Minutes": 25,
+        "Seconds": 0
+      },
+      "DestinationId": 2699571,
+      "DurationInMinutes": 515,
+      "ExternalProperties": {},
+      "FareOption": {
+        "BaggagesIncluded": 0,
+        "ClassOfService": "B",
+        "ExternalProperties": {
+          "ExchangeRate.Old": "1",
+          "Currency.Old": "BRL",
+          "FareAmount.Old": "4802.02",
+          "TaxAmount.Old": "229.39",
+          "RuleNumber": null
+        },
+        "FareBasis": "BLEFFZ0E",
+        "TripType": 0
+      },
+      "Flights": [{
+        "AnacDetailsIndex": 0,
+        "ArrivalAirportId": 2699571,
+        "ArrivalDateTime": {
+          "Day": 21,
+          "DayOfWeek": 6,
+          "Month": 4,
+          "Year": 2018,
+          "Hour": 5,
+          "Millisecond": 0,
+          "Minutes": 0,
+          "Seconds": 0
+        },
+        "CabinType": 2,
+        "CiaCode": "JJ",
+        "ClassOfService": "B",
+        "DepartureAirportId": 2702587,
+        "DepartureDateTime": {
+          "Day": 20,
+          "DayOfWeek": 5,
+          "Month": 4,
+          "Year": 2018,
+          "Hour": 21,
+          "Millisecond": 0,
+          "Minutes": 25,
+          "Seconds": 0
+        },
+        "DurationInMinutes": 515,
+        "ExternalProperties": {},
+        "FlightNumber": "8402",
+        "Legs": []
+      }],
+      "IssuerCia": "JJ",
+      "OriginId": 2702587,
+      "SourceType": "Tam"
+    }, {
+      "ArrivalTime": {
+        "Day": 21,
+        "DayOfWeek": 6,
+        "Month": 4,
+        "Year": 2018,
+        "Hour": 5,
+        "Millisecond": 0,
+        "Minutes": 0,
+        "Seconds": 0
+      },
+      "DepartureTime": {
+        "Day": 20,
+        "DayOfWeek": 5,
+        "Month": 4,
+        "Year": 2018,
+        "Hour": 21,
+        "Millisecond": 0,
+        "Minutes": 25,
+        "Seconds": 0
+      },
+      "DestinationId": 2699571,
+      "DurationInMinutes": 515,
+      "ExternalProperties": {},
+      "FareOption": {
+        "BaggagesIncluded": 0,
+        "ClassOfService": "D",
+        "ExternalProperties": {
+          "ExchangeRate.Old": "1",
+          "Currency.Old": "BRL",
+          "FareAmount.Old": "12270.72",
+          "TaxAmount.Old": "229.39",
+          "RuleNumber": null
+        },
+        "FareBasis": "DEEEVZ0E",
+        "TripType": 0
+      },
+      "Flights": [{
+        "AnacDetailsIndex": 0,
+        "ArrivalAirportId": 2699571,
+        "ArrivalDateTime": {
+          "Day": 21,
+          "DayOfWeek": 6,
+          "Month": 4,
+          "Year": 2018,
+          "Hour": 5,
+          "Millisecond": 0,
+          "Minutes": 0,
+          "Seconds": 0
+        },
+        "CabinType": 2,
+        "CiaCode": "JJ",
+        "ClassOfService": "D",
+        "DepartureAirportId": 2702587,
+        "DepartureDateTime": {
+          "Day": 20,
+          "DayOfWeek": 5,
+          "Month": 4,
+          "Year": 2018,
+          "Hour": 21,
+          "Millisecond": 0,
+          "Minutes": 25,
+          "Seconds": 0
+        },
+        "DurationInMinutes": 515,
+        "ExternalProperties": {},
+        "FlightNumber": "8402",
+        "Legs": []
+      }],
+      "IssuerCia": "JJ",
+      "OriginId": 2702587,
+      "SourceType": "Tam"
+    }, {
+      "ArrivalTime": {
+        "Day": 21,
+        "DayOfWeek": 6,
+        "Month": 4,
+        "Year": 2018,
+        "Hour": 7,
+        "Millisecond": 0,
+        "Minutes": 25,
+        "Seconds": 0
+      },
+      "DepartureTime": {
+        "Day": 20,
+        "DayOfWeek": 5,
+        "Month": 4,
+        "Year": 2018,
+        "Hour": 23,
+        "Millisecond": 0,
+        "Minutes": 55,
+        "Seconds": 0
+      },
+      "DestinationId": 2699571,
+      "DurationInMinutes": 510,
+      "ExternalProperties": {
+        "codeShareDetails-Company": "O6"
+      },
+      "FareOption": {
+        "BaggagesIncluded": 0,
+        "ClassOfService": "D",
+        "ExternalProperties": {
+          "ExchangeRate.Old": "1",
+          "Currency.Old": "BRL",
+          "FareAmount.Old": "12270.72",
+          "TaxAmount.Old": "229.39",
+          "RuleNumber": null
+        },
+        "FareBasis": "DRI00NIA",
+        "TripType": 0
+      },
+      "Flights": [{
+        "AnacDetailsIndex": 0,
+        "ArrivalAirportId": 2699571,
+        "ArrivalDateTime": {
+          "Day": 21,
+          "DayOfWeek": 6,
+          "Month": 4,
+          "Year": 2018,
+          "Hour": 7,
+          "Millisecond": 0,
+          "Minutes": 25,
+          "Seconds": 0
+        },
+        "CabinType": 1,
+        "CiaCode": "O6",
+        "ClassOfService": "D",
+        "DepartureAirportId": 2702587,
+        "DepartureDateTime": {
+          "Day": 20,
+          "DayOfWeek": 5,
+          "Month": 4,
+          "Year": 2018,
+          "Hour": 23,
+          "Millisecond": 0,
+          "Minutes": 55,
+          "Seconds": 0
+        },
+        "DurationInMinutes": 510,
+        "ExternalProperties": {},
+        "FlightNumber": "8510",
+        "Legs": []
+      }],
+      "IssuerCia": "O6",
+      "OriginId": 2702587,
+      "SourceType": "AviancaAmadeus"
+    }, {
+      "ArrivalTime": {
+        "Day": 21,
+        "DayOfWeek": 6,
+        "Month": 4,
+        "Year": 2018,
+        "Hour": 7,
+        "Millisecond": 0,
+        "Minutes": 25,
+        "Seconds": 0
+      },
+      "DepartureTime": {
+        "Day": 20,
+        "DayOfWeek": 5,
+        "Month": 4,
+        "Year": 2018,
+        "Hour": 23,
+        "Millisecond": 0,
+        "Minutes": 55,
+        "Seconds": 0
+      },
+      "DestinationId": 2699571,
+      "DurationInMinutes": 510,
+      "ExternalProperties": {
+        "codeShareDetails-Company": "O6"
+      },
+      "FareOption": {
+        "BaggagesIncluded": 0,
+        "ClassOfService": "J",
+        "ExternalProperties": {
+          "ExchangeRate.Old": "1",
+          "Currency.Old": "BRL",
+          "FareAmount.Old": "13599.08",
+          "TaxAmount.Old": "229.39",
+          "RuleNumber": null
+        },
+        "FareBasis": "JRI00IA",
+        "TripType": 0
+      },
+      "Flights": [{
+        "AnacDetailsIndex": 0,
+        "ArrivalAirportId": 2699571,
+        "ArrivalDateTime": {
+          "Day": 21,
+          "DayOfWeek": 6,
+          "Month": 4,
+          "Year": 2018,
+          "Hour": 7,
+          "Millisecond": 0,
+          "Minutes": 25,
+          "Seconds": 0
+        },
+        "CabinType": 1,
+        "CiaCode": "O6",
+        "ClassOfService": "J",
+        "DepartureAirportId": 2702587,
+        "DepartureDateTime": {
+          "Day": 20,
+          "DayOfWeek": 5,
+          "Month": 4,
+          "Year": 2018,
+          "Hour": 23,
+          "Millisecond": 0,
+          "Minutes": 55,
+          "Seconds": 0
+        },
+        "DurationInMinutes": 510,
+        "ExternalProperties": {},
+        "FlightNumber": "8510",
+        "Legs": []
+      }],
+      "IssuerCia": "O6",
+      "OriginId": 2702587,
+      "SourceType": "AviancaAmadeus"
+    }],
+    "PriceGroups": [{
+      "BaggagesIncluded": 3,
+      "DUTaxes": 330.32,
+      "Fee": 0.0,
+      "FlightGroupIndexes": [
+        [0]
+      ],
+      "Installments": 6,
+      "InstallmentsPrice": 879.7833333333333333333333333,
+      "Price": 4718.99,
+      "Taxes": 229.39
+    }, {
+      "BaggagesIncluded": 0,
+      "DUTaxes": 336.14,
+      "Fee": 0.0,
+      "FlightGroupIndexes": [
+        [1]
+      ],
+      "Installments": 1,
+      "InstallmentsPrice": 5367.55,
+      "Price": 4802.02,
+      "Taxes": 229.39
+    }, {
+      "BaggagesIncluded": 0,
+      "DUTaxes": 858.95,
+      "Fee": 0.0,
+      "FlightGroupIndexes": [
+        [2]
+      ],
+      "Installments": 1,
+      "InstallmentsPrice": 13359.06,
+      "Price": 12270.72,
+      "Taxes": 229.39
+    }, {
+      "BaggagesIncluded": 0,
+      "DUTaxes": 858.95,
+      "Fee": 0.0,
+      "FlightGroupIndexes": [
+        [3]
+      ],
+      "Installments": 6,
+      "InstallmentsPrice": 2226.51,
+      "Price": 12270.72,
+      "Taxes": 229.39
+    }, {
+      "BaggagesIncluded": 0,
+      "DUTaxes": 951.93,
+      "Fee": 0.0,
+      "FlightGroupIndexes": [
+        [4]
+      ],
+      "Installments": 6,
+      "InstallmentsPrice": 2463.40,
+      "Price": 13599.08,
+      "Taxes": 229.39
+    }],
+    "PriceMatrix": {
+      "AirCompanies": [{
+        "AirCompany": "Avianca (O6)",
+        "BestPointAirCompany": 0.0,
+        "BestPriceAirCompany": 4718.99,
+        "Cells": [{
+          "BestInstallments": 6,
+          "BestInstallmentsPrice": 879.7833333333333333333333333,
+          "Points": 0.0,
+          "Price": 4718.99,
+          "Type": 0
+        }, {
+          "BestInstallments": 0,
+          "BestInstallmentsPrice": 0.0,
+          "Points": 0.0,
+          "Price": 0.0,
+          "Type": 1
+        }, {
+          "BestInstallments": 0,
+          "BestInstallmentsPrice": 0.0,
+          "Points": 0.0,
+          "Price": 0.0,
+          "Type": 2
+        }],
+        "CiaCode": "O6",
+        "InBlackList": false
+      }, {
+        "AirCompany": "LATAM",
+        "BestPointAirCompany": 0.0,
+        "BestPriceAirCompany": 4802.02,
+        "Cells": [{
+          "BestInstallments": 1,
+          "BestInstallmentsPrice": 5367.55,
+          "Points": 0.0,
+          "Price": 4802.02,
+          "Type": 0
+        }, {
+          "BestInstallments": 0,
+          "BestInstallmentsPrice": 0.0,
+          "Points": 0.0,
+          "Price": 0.0,
+          "Type": 1
+        }, {
+          "BestInstallments": 0,
+          "BestInstallmentsPrice": 0.0,
+          "Points": 0.0,
+          "Price": 0.0,
+          "Type": 2
+        }],
+        "CiaCode": "JJ",
+        "InBlackList": false
+      }]
+    },
+    "Recommendations": [{
+      "FlightGroups": [{
+        "FareOption": {
+          "BaggagesIncluded": 3,
+          "ClassOfService": "B",
+          "ExternalProperties": {
+            "ExchangeRate.Old": "1",
+            "Currency.Old": "BRL",
+            "FareAmount.Old": "4718.99",
+            "TaxAmount.Old": "229.39",
+            "RuleNumber": null
+          },
+          "FareBasis": "BLI00IA",
+          "TripType": 0
+        },
+        "FlightGroupIndex": 0
+      }],
+      "Installments": 6,
+      "InstallmentsPrice": 879.7833333333333333333333333,
+      "TotalAmount": 4718.99,
+      "TotalTaxes": 229.39
+    }, {
+      "FlightGroups": [{
+        "FareOption": {
+          "BaggagesIncluded": 3,
+          "ClassOfService": "B",
+          "ExternalProperties": {
+            "ExchangeRate.Old": "1",
+            "Currency.Old": "BRL",
+            "FareAmount.Old": "4718.99",
+            "TaxAmount.Old": "229.39",
+            "RuleNumber": null
+          },
+          "FareBasis": "BLI00IA",
+          "TripType": 0
+        },
+        "FlightGroupIndex": 0
+      }],
+      "Installments": 6,
+      "InstallmentsPrice": 879.7833333333333333333333333,
+      "TotalAmount": 4718.99,
+      "TotalTaxes": 229.39
+    }, {
+      "FlightGroups": [{
+        "FareOption": {
+          "BaggagesIncluded": 0,
+          "ClassOfService": "B",
+          "ExternalProperties": {
+            "ExchangeRate.Old": "1",
+            "Currency.Old": "BRL",
+            "FareAmount.Old": "4802.02",
+            "TaxAmount.Old": "229.39",
+            "RuleNumber": null
+          },
+          "FareBasis": "BLEFFZ0E",
+          "TripType": 0
+        },
+        "FlightGroupIndex": 1
+      }],
+      "Installments": 1,
+      "InstallmentsPrice": 5367.55,
+      "TotalAmount": 4802.02,
+      "TotalTaxes": 229.39
+    }, {
+      "FlightGroups": [{
+        "FareOption": {
+          "BaggagesIncluded": 0,
+          "ClassOfService": "D",
+          "ExternalProperties": {
+            "ExchangeRate.Old": "1",
+            "Currency.Old": "BRL",
+            "FareAmount.Old": "12270.72",
+            "TaxAmount.Old": "229.39",
+            "RuleNumber": null
+          },
+          "FareBasis": "DEEEVZ0E",
+          "TripType": 0
+        },
+        "FlightGroupIndex": 2
+      }],
+      "Installments": 1,
+      "InstallmentsPrice": 13359.06,
+      "TotalAmount": 12270.72,
+      "TotalTaxes": 229.39
+    }, {
+      "FlightGroups": [{
+        "FareOption": {
+          "BaggagesIncluded": 0,
+          "ClassOfService": "D",
+          "ExternalProperties": {
+            "ExchangeRate.Old": "1",
+            "Currency.Old": "BRL",
+            "FareAmount.Old": "12270.72",
+            "TaxAmount.Old": "229.39",
+            "RuleNumber": null
+          },
+          "FareBasis": "DRI00NIA",
+          "TripType": 0
+        },
+        "FlightGroupIndex": 3
+      }],
+      "Installments": 6,
+      "InstallmentsPrice": 2226.51,
+      "TotalAmount": 12270.72,
+      "TotalTaxes": 229.39
+    }, {
+      "FlightGroups": [{
+        "FareOption": {
+          "BaggagesIncluded": 0,
+          "ClassOfService": "D",
+          "ExternalProperties": {
+            "ExchangeRate.Old": "1",
+            "Currency.Old": "BRL",
+            "FareAmount.Old": "12270.72",
+            "TaxAmount.Old": "229.39",
+            "RuleNumber": null
+          },
+          "FareBasis": "DRI00NIA",
+          "TripType": 0
+        },
+        "FlightGroupIndex": 3
+      }],
+      "Installments": 6,
+      "InstallmentsPrice": 2226.51,
+      "TotalAmount": 12270.72,
+      "TotalTaxes": 229.39
+    }, {
+      "FlightGroups": [{
+        "FareOption": {
+          "BaggagesIncluded": 0,
+          "ClassOfService": "J",
+          "ExternalProperties": {
+            "ExchangeRate.Old": "1",
+            "Currency.Old": "BRL",
+            "FareAmount.Old": "13599.08",
+            "TaxAmount.Old": "229.39",
+            "RuleNumber": null
+          },
+          "FareBasis": "JRI00IA",
+          "TripType": 0
+        },
+        "FlightGroupIndex": 4
+      }],
+      "Installments": 6,
+      "InstallmentsPrice": 2463.40,
+      "TotalAmount": 13599.08,
+      "TotalTaxes": 229.39
+    }, {
+      "FlightGroups": [{
+        "FareOption": {
+          "BaggagesIncluded": 0,
+          "ClassOfService": "J",
+          "ExternalProperties": {
+            "ExchangeRate.Old": "1",
+            "Currency.Old": "BRL",
+            "FareAmount.Old": "13599.08",
+            "TaxAmount.Old": "229.39",
+            "RuleNumber": null
+          },
+          "FareBasis": "JRI00IA",
+          "TripType": 0
+        },
+        "FlightGroupIndex": 4
+      }],
+      "Installments": 6,
+      "InstallmentsPrice": 2463.40,
+      "TotalAmount": 13599.08,
+      "TotalTaxes": 229.39
+    }]
+  },
+  "HotelResponseData": {
+    "Chains": [],
+    "FilteredTotalItems": 0,
+    "HotelFiltersData": null,
+    "Hotels": [],
+    "TotalItems": 0
+  },
+  "PullStatusFrom": {
+    "TravelEngine": "http://travelengine-04.envision.local/TravelEngineWS.svc",
+    "Orchestration": "http://v2-travelmanagement-03.envision.local/TravelManagementService.svc"
+  },
+  "SearchId": "035aa073-b56e-4306-af91-d061e25a73be",
+  "SessionId": "20233503|12405||[0:24733:0]|TravelAgent|636402292846830000|636501071915213437|2tyU98seUC4Fa/IiS3Yk/QAqgg8=",
+  "Status": 1,
+  "Locations": {
+    "2702587": {
+      "Code": null,
+      "Country": null,
+      "Description": "Aeroporto Internacional de Guarulhos / SP, Brasil",
+      "FullName": "Aeroporto Internacional de Guarulhos / SP, Brasil",
+      "FullNameWithIATA": null,
+      "IATA": "GRU",
+      "Id": 0,
+      "Latitude": null,
+      "LocationType": 5,
+      "Longitude": null,
+      "Name": null,
+      "NamePortuguese": null,
+      "NameSpanish": null,
+      "ParentId": 275279,
+      "RegionCode": null,
+      "TimeZone": null
+    },
+    "275279": {
+      "Code": null,
+      "Country": null,
+      "Description": "São Paulo / SP, Brasil",
+      "FullName": "São Paulo / SP, Brasil",
+      "FullNameWithIATA": null,
+      "IATA": "SAO",
+      "Id": 0,
+      "Latitude": null,
+      "LocationType": 4,
+      "Longitude": null,
+      "Name": null,
+      "NamePortuguese": null,
+      "NameSpanish": null,
+      "ParentId": 806,
+      "RegionCode": null,
+      "TimeZone": null
+    },
+    "806": {
+      "Code": null,
+      "Country": null,
+      "Description": "São Paulo",
+      "FullName": "São Paulo",
+      "FullNameWithIATA": null,
+      "IATA": null,
+      "Id": 0,
+      "Latitude": null,
+      "LocationType": 3,
+      "Longitude": null,
+      "Name": null,
+      "NamePortuguese": null,
+      "NameSpanish": null,
+      "ParentId": 2702989,
+      "RegionCode": null,
+      "TimeZone": null
+    },
+    "2702989": {
+      "Code": null,
+      "Country": null,
+      "Description": "Sudeste",
+      "FullName": "Sudeste",
+      "FullNameWithIATA": null,
+      "IATA": null,
+      "Id": 0,
+      "Latitude": null,
+      "LocationType": 6,
+      "Longitude": null,
+      "Name": null,
+      "NamePortuguese": null,
+      "NameSpanish": null,
+      "ParentId": 210,
+      "RegionCode": null,
+      "TimeZone": null
+    },
+    "210": {
+      "Code": null,
+      "Country": null,
+      "Description": "Brasil",
+      "FullName": "Brasil",
+      "FullNameWithIATA": null,
+      "IATA": null,
+      "Id": 0,
+      "Latitude": null,
+      "LocationType": 2,
+      "Longitude": null,
+      "Name": null,
+      "NamePortuguese": null,
+      "NameSpanish": null,
+      "ParentId": 6,
+      "RegionCode": null,
+      "TimeZone": null
+    },
+    "6": {
+      "Code": null,
+      "Country": null,
+      "Description": "América do Sul",
+      "FullName": "América do Sul",
+      "FullNameWithIATA": null,
+      "IATA": null,
+      "Id": 0,
+      "Latitude": null,
+      "LocationType": 1,
+      "Longitude": null,
+      "Name": null,
+      "NamePortuguese": null,
+      "NameSpanish": null,
+      "ParentId": 3,
+      "RegionCode": null,
+      "TimeZone": null
+    },
+    "3": {
+      "Code": null,
+      "Country": null,
+      "Description": "América",
+      "FullName": "América",
+      "FullNameWithIATA": null,
+      "IATA": null,
+      "Id": 0,
+      "Latitude": null,
+      "LocationType": 1,
+      "Longitude": null,
+      "Name": null,
+      "NamePortuguese": null,
+      "NameSpanish": null,
+      "ParentId": 1,
+      "RegionCode": null,
+      "TimeZone": null
+    },
+    "1": {
+      "Code": null,
+      "Country": null,
+      "Description": "Globo",
+      "FullName": "Globo",
+      "FullNameWithIATA": null,
+      "IATA": null,
+      "Id": 0,
+      "Latitude": null,
+      "LocationType": 0,
+      "Longitude": null,
+      "Name": null,
+      "NamePortuguese": null,
+      "NameSpanish": null,
+      "ParentId": null,
+      "RegionCode": null,
+      "TimeZone": null
+    },
+    "2699571": {
+      "Code": null,
+      "Country": null,
+      "Description": "Miami International Airport / FL, Estados Unidos da América",
+      "FullName": "Miami International Airport / FL, Estados Unidos da América",
+      "FullNameWithIATA": null,
+      "IATA": "MIA",
+      "Id": 0,
+      "Latitude": null,
+      "LocationType": 5,
+      "Longitude": null,
+      "Name": null,
+      "NamePortuguese": null,
+      "NameSpanish": null,
+      "ParentId": 2461560,
+      "RegionCode": null,
+      "TimeZone": null
+    },
+    "2461560": {
+      "Code": null,
+      "Country": null,
+      "Description": "Miami / FL, Estados Unidos da América",
+      "FullName": "Miami / FL, Estados Unidos da América",
+      "FullNameWithIATA": null,
+      "IATA": "MIA",
+      "Id": 0,
+      "Latitude": null,
+      "LocationType": 4,
+      "Longitude": null,
+      "Name": null,
+      "NamePortuguese": null,
+      "NameSpanish": null,
+      "ParentId": 5121,
+      "RegionCode": null,
+      "TimeZone": null
+    },
+    "5121": {
+      "Code": null,
+      "Country": null,
+      "Description": "Florida, Estados Unidos da América",
+      "FullName": "Florida, Estados Unidos da América",
+      "FullNameWithIATA": null,
+      "IATA": null,
+      "Id": 0,
+      "Latitude": null,
+      "LocationType": 3,
+      "Longitude": null,
+      "Name": null,
+      "NamePortuguese": null,
+      "NameSpanish": null,
+      "ParentId": 204,
+      "RegionCode": null,
+      "TimeZone": null
+    },
+    "204": {
+      "Code": null,
+      "Country": null,
+      "Description": "Estados Unidos da América",
+      "FullName": "Estados Unidos da América",
+      "FullNameWithIATA": null,
+      "IATA": null,
+      "Id": 0,
+      "Latitude": null,
+      "LocationType": 2,
+      "Longitude": null,
+      "Name": null,
+      "NamePortuguese": null,
+      "NameSpanish": null,
+      "ParentId": 5,
+      "RegionCode": null,
+      "TimeZone": null
+    },
+    "5": {
+      "Code": null,
+      "Country": null,
+      "Description": "América do Norte",
+      "FullName": "América do Norte",
+      "FullNameWithIATA": null,
+      "IATA": null,
+      "Id": 0,
+      "Latitude": null,
+      "LocationType": 1,
+      "Longitude": null,
+      "Name": null,
+      "NamePortuguese": null,
+      "NameSpanish": null,
+      "ParentId": 3,
+      "RegionCode": null,
+      "TimeZone": null
+    }
+  },
+  "Errors": [{
+    "ErrorMessage": "System.ServiceModel.FaultException`1[System.ServiceModel.ExceptionDetail]: No agent found for requested agent name EXT/20212021WS1 (Fault Detail is equal to An ExceptionDetail, likely created by IncludeExceptionDetailInFaults=true, whose value is:\nSystem.Web.Services.Protocols.SoapException: No agent found for requested agent name EXT/20212021WS1 ----> Navitaire.NewSkies.Common.Exceptions.GeneralException: No agent found for requested agent name EXT/20212021WS1\n\r\nServer stack trace: \r\n   at Navitaire.NewSkies.BusinessServices.Session.SessionServices.getAgent(String domainCode, String agentName) in F:\\Projects\\Build\\NewSkies\\3.4\\3.4.16\\src\\BusinessServices\\BusinessServices.Session\\SessionServices.cs:line 2046\r\n   at Navitaire.NewSkies.BusinessServices.Session.SessionServices.getAgentInformation(String domainCode, String agentName, Domain& domain, Agent& agent, OrganizationDetail& org, Location& location) in F:\\Projects\\Build\\NewSkies\\3.4\\3.4.16\\src\\BusinessServices\\BusinessServices.Session\\SessionServices.cs:line 2094\r\n   at Navitaire.NewSkies.BusinessServices.Session.SessionServices.Logon(LogonRequest logonReq) in F:\\Projects\\Build\\NewSkies\\3.4\\3.4.16\\src\\Busi...).",
+    "ExceptionType": "System.ServiceModel.FaultException`1[System.ServiceModel.ExceptionDetail]",
+    "FriendlyMessage": "No agent found for requested agent name EXT/20212021WS1",
+    "MessageCategory": null,
+    "MessageCode": null,
+    "Source": "Azul",
+    "StopFlow": true
+  }, {
+    "ErrorMessage": "System.ServiceModel.FaultException`1[System.ServiceModel.ExceptionDetail]: No agent found for requested agent name EXT/20212021WS1 (Fault Detail is equal to An ExceptionDetail, likely created by IncludeExceptionDetailInFaults=true, whose value is:\nSystem.Web.Services.Protocols.SoapException: No agent found for requested agent name EXT/20212021WS1 ----> Navitaire.NewSkies.Common.Exceptions.GeneralException: No agent found for requested agent name EXT/20212021WS1\n\r\nServer stack trace: \r\n   at Navitaire.NewSkies.BusinessServices.Session.SessionServices.getAgent(String domainCode, String agentName) in F:\\Projects\\Build\\NewSkies\\3.4\\3.4.16\\src\\BusinessServices\\BusinessServices.Session\\SessionServices.cs:line 2046\r\n   at Navitaire.NewSkies.BusinessServices.Session.SessionServices.getAgentInformation(String domainCode, String agentName, Domain& domain, Agent& agent, OrganizationDetail& org, Location& location) in F:\\Projects\\Build\\NewSkies\\3.4\\3.4.16\\src\\BusinessServices\\BusinessServices.Session\\SessionServices.cs:line 2094\r\n   at Navitaire.NewSkies.BusinessServices.Session.SessionServices.Logon(LogonRequest logonReq) in F:\\Projects\\Build\\NewSkies\\3.4\\3.4.16\\src\\Busi...).",
+    "ExceptionType": "System.ServiceModel.FaultException`1[System.ServiceModel.ExceptionDetail]",
+    "FriendlyMessage": "No agent found for requested agent name EXT/20212021WS1",
+    "MessageCategory": null,
+    "MessageCode": null,
+    "Source": "Azul",
+    "StopFlow": true
+  }],
+  "Successful": false,
+  "TraceInfo": null
+}

@@ -1,0 +1,49 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Adicionar Pagamento</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only tappable (click)="addPayment()">
+        <ion-icon name="checkmark"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <form>
+    <ion-item>
+      <ion-label stacked>Bandeira</ion-label>
+      <ion-select>
+        <ion-option value="f">Visa</ion-option>
+        <ion-option value="m">Master</ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-label stacked>Número do Cartão</ion-label>
+      <ion-input type="number"></ion-input>
+    </ion-item>
+    <ion-row>
+      <ion-col width-50>
+        <ion-item>
+          <ion-label stacked>Mês</ion-label>
+          <ion-input></ion-input>
+        </ion-item>
+      </ion-col>
+      <ion-col width-50>
+        <ion-item>
+          <ion-label stacked>Ano</ion-label>
+          <ion-input></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-item>
+        <ion-label stacked>Titular do Cartao</ion-label>
+        <ion-input></ion-input>
+      </ion-item>    
+  </form>
+</ion-content>
+<ion-footer>
+    <button ion-button icon-start block no-margin color="primary" tappable (click)="addPayment()">
+      Aplicar
+    </button>
+  </ion-footer>

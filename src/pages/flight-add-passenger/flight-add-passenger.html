@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>Passageiros</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="closeModal()">
+        <ion-icon item-right name="ios-close-outline"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content no-padding class="filters-content">
+  <form [formGroup]="passengersForm">
+    <div class="counter-list">
+      <ion-item class="counter-item">
+        <span class="counter-label">Adultos
+          <small>12 anos ou +</small>
+        </span>
+        <counter-input formControlName="adult"></counter-input>
+      </ion-item>
+      <ion-item class="counter-item">
+        <span class="counter-label">Crianças
+          <small>2 a 11 anos</small>
+        </span>
+        <counter-input formControlName="children"></counter-input>
+      </ion-item>
+      <ion-item class="counter-item">
+        <span class="counter-label">Bebês
+          <small>0 a 23 meses</small>
+        </span>
+        <counter-input formControlName="baby"></counter-input>
+      </ion-item>
+    </div>
+  </form>
+</ion-content>
+<ion-footer>
+  <button ion-button icon-start block no-margin margin-top color="primary" tappable (click)="closeModal()">
+    Aplicar
+  </button>
+</ion-footer>

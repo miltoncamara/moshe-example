@@ -1,0 +1,33 @@
+  page-car-list {
+    .scroll-content {
+      margin-top: 0 !important;
+    }
+    .car {
+      font-size: 1.2rem;
+      line-height: 2rem;
+      h5 {
+        font-size: 1.6rem;
+      }
+      h6 {
+        font-size: 1.4rem;
+      }
+      ion-icon {
+        width: 2rem;
+      }
+    }
+    .car-info {
+      .car-image {
+        width: 100%;
+        height: 120px;
+        background-size: 100% auto;
+        background-position: center;
+        border-radius: 1rem 1rem 0 0;
+      }
+      .car-features {
+        ion-icon {
+          min-width: 1.5rem;
+          text-align: center;
+        }
+      }
+    }
+  }

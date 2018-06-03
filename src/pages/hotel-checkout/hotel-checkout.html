@@ -1,0 +1,49 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Finalizar Compra</ion-title>
+  </ion-navbar>
+  <ion-toolbar color="secondary">
+    <ion-grid>
+      <ion-row>
+        <ion-col col-6>
+          <span>TOTAL</span>
+        </ion-col>
+        <ion-col col-6 text-right>
+          <span class="lbl-total"><small>R$</small> 3.153</span>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <h2>Resumo</h2>
+    </ion-card-header>
+    <ion-card-content>
+        <ion-badge item-start>IDA</ion-badge> <span color="primary">Qua, 15 Nov 2017</span>
+        <div margin-top>
+          Voo: Delta 4788 <br />
+          Sai: São Paulo às 22:20 <br />
+          Chega: Miami às 16:25 <br />
+          Tempo de voo: 21h 50m
+        </div>
+    </ion-card-content>
+  </ion-card>
+  <ion-list padding>
+    <button ion-item tappable (click)="addPassenger()">
+      1. Adicionar Passageiros
+    </button>
+    <button ion-item (click)="addContact()">
+      2. Dados de Contato
+    </button>
+    <button ion-item (click)="addPayment()">
+      3. Forma de Pagamento
+    </button>    
+  </ion-list>
+</ion-content>
+<ion-footer>
+  <button ion-button icon-start block no-margin color="primary" tappable (click)="doBuy()">
+    Comprar
+  </button>
+</ion-footer>

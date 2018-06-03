@@ -1,0 +1,77 @@
+<ion-header color="primary">
+  <ion-navbar>
+    <ion-title>Selecionar Datas</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="closeModal()">
+        <ion-icon item-right name="ios-close-outline"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+<div class="datepicker" >
+  <!-- ion-scroll contains the header row to display the checkIn, checkout and the weekNames -->
+  <ion-scroll class="auto-scroll cal-bg header-row">
+    <ion-row class="text-center input-row">
+      <ion-col width-50 [ngClass]="{'selected-input':checkInDate,
+                        'non-selected-input':focusOnCheckInDate}">
+        <div class="check-text">Data Ida</div>
+        <div *ngIf="checkInDate" class="check-date">
+          {{checkInDate.format('ddd, DD MMM')}}
+        </div>
+        <div *ngIf="!checkInDate" class="check-date">
+          Selecione uma Data
+        </div>
+      </ion-col>
+      <ion-col width-50 [hidden]="!isRoundTrip" [ngClass]="{'selected-input':checkOutDate,
+        'non-selected-input':!checkOutDate}">
+        <div class="check-text" >Data Volta</div>
+        <div *ngIf="checkOutDate" class="check-date">
+          {{checkOutDate.format('ddd, DD MMM')}}
+        </div>
+        <div *ngIf="!checkOutDate" class="check-date">
+          Selecione uma Data
+        </div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="text-center week-row">
+      <ion-col *ngFor="let weekName of weekNames" style="font-weight: bold">
+        <span>{{weekName}}</span>
+      </ion-col>
+    </ion-row>
+  </ion-scroll>
+
+  <!-- ion-content contains the calendar months displayed in the view -->
+  <ion-content class="auto-scroll cal-bg month-list">
+    <ion-list>
+      <ion-item *ngFor="let monthObj of months">
+        <ion-row class="month-row" >
+          <ion-col width-60 class="text-center">
+            {{monthObj.selectedMonth.format("MMM YYYY")}}
+          </ion-col>
+        </ion-row>
+
+        <div class="day-grid">
+          <ion-row class="text-center day-row" *ngFor="let week of monthObj.weeks; let rowIndex = index" >
+            <ion-col class="day-col" *ngFor="let day of week.days; let colIndex = index"
+              (click)="select(monthObj,day,rowIndex)">
+
+                <button ion-button  *ngIf="day"  clear [datespan]="day.id">
+                  {{day.displayText}}
+                </button>
+
+            </ion-col>
+          </ion-row>
+        </div>
+      </ion-item>
+    </ion-list>
+    <!-- Add Bottom Padding to the list -->
+    <div class="bottom-padding">
+    </div>
+  </ion-content>
+  <ion-footer>
+    <button ion-button icon-start block no-margin color="primary" tappable (click)="closeModal()">
+      Aplicar
+    </button>
+  </ion-footer>
+</div>

@@ -1,0 +1,8 @@
+{
+  "name": "rcitravel-lojaonline-app",
+  "app_id": "fbd1cdd1",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

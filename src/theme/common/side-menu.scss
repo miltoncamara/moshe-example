@@ -1,0 +1,78 @@
+ion-menu {
+	.user-profile {
+		.user-avatar img {
+		  width: 96px;
+		  height: 96px;
+		  display: inline-block;
+		  border-radius: 50%;
+		  box-shadow: inset 0 0 10rem rgba(0,0,0,.25), 0 0 4rem rgba(255,255,255,.45);
+		  background-size: 100%;    
+		}
+		.toolbar-background {
+		  background-image: linear-gradient(135deg, #0C2032, #1B3147, #42586E);
+		}
+	  
+		.other-data {
+		  border-top: 1px solid rgba(39, 27, 56, .25);
+		  .column {
+			background-color: rgba(39, 27, 56, .25);
+			&:first-child {
+			  border-right: 1px solid rgba(39, 27, 56, .25);
+			}
+		  }
+		}
+	  }	
+	.menu-content
+	{
+		background-color: color($colors, background, base);
+	}
+
+	.menu-list
+	{
+		.item
+		{
+			background-color: color($colors, background, base);
+			padding-right: 32px;
+
+			&:first-child
+			{
+				border-top: solid 1px rgba($white-d, 0.15);
+			}
+
+			&:last-child
+			{
+				border-bottom: solid 1px rgba($white-d, 0.15);
+			}
+
+			.item-inner
+			{
+				border-bottom: 1px solid rgba($white-d, 0.15);
+				font-weight: 300;
+				letter-spacing: 1px;
+				color: $theme-color-3;
+			}
+
+			.item-icon
+			{
+				color: $theme-color-1;
+				font-size:2.4rem;
+			}
+
+			&.activated
+			{
+  			background-color: $theme-color-1;
+  			transition-duration: 0ms;
+
+				.item-inner
+				{
+					color: $white;
+				}
+
+				.item-icon
+				{
+					color: $white;
+				}
+			}
+		}
+	}
+}

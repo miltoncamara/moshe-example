@@ -1,0 +1,15 @@
+page-flight-checkout {
+    ion-header {
+        ion-toolbar {
+            color:white;
+        }
+    }
+    ion-footer {
+        button {
+            border-radius: 0 !important;
+        }
+    }
+    ion-content {
+        background-color: color($colors, light) !important;
+    }
+}

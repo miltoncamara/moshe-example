@@ -1,0 +1,45 @@
+<ion-header class="walkthrough-header" no-border>
+  <ion-toolbar>
+    <ion-buttons end>
+      <button ion-button class="skip-button" (click)="skipIntro()">{{'SKIP' | translate}}</button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content class="walkthrough-content">
+  <ion-slides #slider (ionSlideDidChange)="onSlideChanged()" pager="true">
+    <ion-slide class="slide-1">
+      <ion-row class="intro-image-row">
+        <ion-col center width-64 no-padding>
+            <img src="./assets/images/slide-2-img.png" id="animate-1" />
+        </ion-col>
+      </ion-row>
+      <h2 class="main-title">Férias Perfeitas é com a RCI Travel!</h2>
+    </ion-slide>
+    <ion-slide class="slide-2">
+      <ion-row class="intro-image-row">
+        <ion-col center width-64 no-padding>
+          <img src="./assets/images/slide-3-img.png" id="animate-2" />
+        </ion-col>
+      </ion-row>
+      <h2 class="main-title">Passagens, hospedagem, locação de carro, ingressos...</h2>
+    </ion-slide>
+    <ion-slide class="slide-3">
+      <ion-row class="intro-image-row">
+        <ion-col center width-64 no-padding>
+            <img src="./assets/images/slide-4-img.png" id="animate-3" />
+        </ion-col>
+      </ion-row>
+      <h2 class="main-title">Tudo para sua viagem com os melhores preços e condições.</h2>
+    </ion-slide>
+    <ion-slide class="slide-4">
+      <ion-row class="intro-image-row">
+        <ion-col center width-64 no-padding>
+            <img src="./assets/images/logo_white.png" id="animate-4" />
+        </ion-col>
+      </ion-row>
+      <h2 class="main-title">Porque suas férias significam muito para nós</h2>
+    </ion-slide>
+  </ion-slides>
+</ion-content>

@@ -1,0 +1,100 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Carros em Miami</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content class="common-bg">
+    <img class="full-width to-top" src="https://media.caranddriver.com/images/media/331369/chevrolet-malibu-to-offer-turbocharged-four-cylinder-photo-434142-s-450x274.jpg" alt="">
+    <!-- shop name and infomation-->
+    <div class="border-bottom detail-bg" padding>
+      <h4 class="pull-left" no-margin ion-text color="primary">Miami</h4>
+      <div class="pull-right">
+        <span ion-text text-center>menor preço</span>
+        <h5 class="bold" no-margin ion-text text-center color="primary">
+          500
+        </h5>
+      </div>
+      <div class="clear"></div>
+      <div>
+        <span>Hertz</span>
+        <br/>
+        <span ion-text color="secondary">Teste</span>
+      </div>
+    </div>
+  <div class="car car-info card round" margin>
+    <div class="car-image border-bottom" style="background-image:url('https://media.caranddriver.com/images/media/331369/chevrolet-malibu-to-offer-turbocharged-four-cylinder-photo-434142-s-450x274.jpg');"></div>
+    <div class="border-bottom" padding>
+      <div class="pull-left">
+        <h5 no-margin ion-text color="primary">Teste</h5>
+        <!--         <span>{{ shop.slogan }}</span> -->
+      </div>
+      <div class="pull-right" text-right>
+        <h6 no-margin color="car-ion-text color">Daily 300</h6>
+        <span ion-text color="dark">Total
+          <strong>500 USD</strong>
+        </span>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div padding>
+      <div class="pull-left">
+        <div>
+          <ion-icon name="person" color="dark"></ion-icon>
+          <span ion-text color="dark" margin-right>3 Passengers</span>
+        </div>
+        <div>
+          <ion-icon name="md-briefcase" color="dark"></ion-icon>
+          <span ion-text color="dark">3 Bags</span>
+        </div>
+        <div>
+          <ion-icon name="md-checkmark" color="dark"></ion-icon>
+          <span ion-text color="dark">Automatic transmission</span>
+          <!-- <span ion-text color="dark" *ngIf="!car.automatic_transmission">Manual transmission</span> -->
+        </div>
+      </div>
+      <div class="pull-right">
+        <button ion-button color="secondary" (click)="doBook()">Reserve</button>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <div class="car car-info card round" margin>
+      <div class="car-image border-bottom" style="background-image:url('https://media.caranddriver.com/images/media/331369/chevrolet-malibu-to-offer-turbocharged-four-cylinder-photo-434142-s-450x274.jpg');"></div>
+      <div class="border-bottom" padding>
+        <div class="pull-left">
+          <h5 no-margin ion-text color="primary">Teste</h5>
+          <!--         <span>{{ shop.slogan }}</span> -->
+        </div>
+        <div class="pull-right" text-right>
+          <h6 no-margin color="car-ion-text color">Daily 300</h6>
+          <span ion-text color="dark">Total
+            <strong>500 USD</strong>
+          </span>
+        </div>
+        <div class="clear"></div>
+      </div>
+      <div padding>
+        <div class="pull-left">
+          <div>
+            <ion-icon name="person" color="dark"></ion-icon>
+            <span ion-text color="dark" margin-right>3 Passengers</span>
+          </div>
+          <div>
+            <ion-icon name="md-briefcase" color="dark"></ion-icon>
+            <span ion-text color="dark">3 Bags</span>
+          </div>
+          <div>
+            <ion-icon name="md-checkmark" color="dark"></ion-icon>
+            <span ion-text color="dark">Automatic transmission</span>
+            <!-- <span ion-text color="dark" *ngIf="!car.automatic_transmission">Manual transmission</span> -->
+          </div>
+        </div>
+        <div class="pull-right">
+          <button ion-button color="secondary" (click)="doBook()">Reserve</button>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+</ion-content>

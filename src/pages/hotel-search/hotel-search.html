@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>Encontre seu Hotel</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="page-content">
+  <form class="page-form">
+    <div class="form-data-content">
+      <ion-item tappable>
+        <ion-label stacked>Origem</ion-label>
+        <ion-input type="text" required></ion-input>
+      </ion-item>
+      <ion-item tappable>
+        <ion-label stacked>Destino</ion-label>
+        <ion-input type="text" required></ion-input>
+      </ion-item>
+      <ion-item tappable>
+        <ion-label stacked>Data</ion-label>
+        <ion-input readonly></ion-input>
+      </ion-item>
+      <ion-item tappable>
+        <ion-label stacked>Passageiros</ion-label>
+        <ion-input type="text" required readonly></ion-input>
+      </ion-item>      
+    </div>
+  </form>
+</ion-content>
+<ion-footer>
+  <button ion-button icon-start block no-margin color="primary" tappable (click)="doSearch()">
+    Pesquisar Hotéis
+  </button>
+</ion-footer>

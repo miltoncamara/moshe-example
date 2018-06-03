@@ -1,0 +1,157 @@
+page-flight-list {
+    ion-header {
+        ion-toolbar {
+            color:white;
+            padding: 0 !important;
+            h1 {
+                font-size:2rem;
+                padding: 0 !important;
+                margin: 0 !important;
+            }
+            h2 {
+                font-size:1.5rem;
+                padding: 0 !important;
+                margin: 0 !important;
+            } 
+            h3 {
+                font-size:1rem;
+                padding: 0 !important;
+                margin: 0 !important;
+            }                        
+        }
+    }
+    ion-content {
+        background-color: color($colors, light) !important;
+        ion-card {
+            margin:10px !important;
+            box-shadow:0 !important;
+            ion-card-header {
+                border:0 !important;
+                margin: 0 !important;
+                padding:5px !important;
+                h1 {
+                    color: color($colors, primary) !important;
+                    font-size: 2rem !important;
+                    padding: 0 !important;
+                    margin: 0 !important;
+                }
+            }
+            ion-card-content {
+                padding: 0 !important;
+                ion-grid {
+                    height: 100%;
+                    justify-content: center;
+                    padding: 0 !important;
+                                     
+                }
+                .grid, .row {
+                    height: 100% !important;
+                }                
+                .grid-item-flights {
+                    ion-row {
+                        padding: 0 !important;
+                        &:not(:last-child) {
+                            border-bottom: 1px solid color($colors, light);
+                        }
+                        ion-col {
+                            ion-radio {
+                                display: block;
+                            }
+                        }
+                    }
+                    .item-fligh-segment {
+                        h1 {
+                            font-size:1.4rem;
+                            padding: 0 !important;
+                            margin: 0 !important;                        
+                        }
+                        h2 {
+                            color: color($colors, secondary);
+                            font-size:1.2rem;
+                            padding: 0 !important;
+                            margin: 0 !important;
+                        }
+                        ul {
+                            padding: 0 !important;
+                            list-style: none;
+                            display: block;
+                            position: relative;
+                            margin: 2px auto;
+                            width: 50%;
+                            float: none;
+                            height: 6px;                        
+                            &:before {
+                                width: 50%;
+                                height: 2px;
+                                background: #AFAFAF;
+                                display: block;
+                                content: " ";
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                            }
+                            &:after {
+                                height: 2px;
+                                background: #AFAFAF;
+                                display: block;
+                                content: " ";
+                                position: absolute;
+                                top: 0;
+                                width: 50%;
+                                right: 0;
+                            }                        
+                            li {
+                                display: block;
+                                width: 8px!important;
+                                height: 8px!important;
+                                background: #AFAFAF;
+                                border-radius: 6px;
+                                background-clip: padding-box;
+                                position: absolute!important;
+                                top: -3px;
+                                left: 50%;                                
+                                -webkit-border-radius: 6px;
+                                -moz-border-radius: 6px;                                
+                                -moz-background-clip: padding;
+                                -webkit-background-clip: padding-box;                                
+                                &:first-child {
+                                    left:0;
+                                    margin-left: 0;
+                                }
+                                &:last-child {
+                                    right: -1px;
+                                    left: auto;
+                                    margin-left: 0;
+                                }
+                            }
+                            .item-flight-segments-stop {
+                                height: 6px;
+                            }
+                        }
+                        .item-flight-segment-cia-img {
+                            width: 42px !important;
+                        }
+                        .title-stops {
+                            margin: 0 0 10px 0 !important;
+                        }
+                        .title-total-trip-time {
+                            color:#AFAFAF;
+                        }
+                    } 
+                }                   
+                .item-alternative-departure {
+                    background-color: color($colors, light) !important;
+                    color: color($colors, secondary);
+                    font-weight: bold;
+                    font-size:1.3rem;
+                }
+                .item-alternative-return {
+                    background-color: color($colors, light) !important;
+                    color: color($colors, primary);
+                    font-weight: bold;
+                    font-size:1.3rem;
+                }
+            }           
+        }
+    }
+}

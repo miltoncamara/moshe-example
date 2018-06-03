@@ -1,0 +1,188 @@
+@mixin menu-title-style($color) {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 0.4px;
+  color: $color;
+  margin: 0px;
+}
+
+@mixin menu-icon-style($color) {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  color: $color;
+  margin: 0px;
+}
+
+page-home {
+  $categories-heading-image-height: 150px;
+  $categories-grid-padding: 10px;
+  $categories-horizontal-list-padding: 10px;
+  .listing-header {
+    .header-logo {
+      width: 81px;
+      height: 35px;
+    }
+  }
+  .home-content {
+    $card-slides-height: 250px;
+    .header-intro {
+      padding: 0;
+      background-color: $theme-color-3 !important;
+      h2 {
+        font-size: 3rem;
+        color: $white;
+      }
+    }
+    .card-slides {
+      height: $card-slides-height;
+      ion-slide.card-slide {
+        .slide-zoom {
+          height: 100%;
+        }
+      }
+      .swiper-pagination {
+        .swiper-pagination-bullet {
+          opacity: 1;
+          background: $white;
+          width: 10px;
+          height: 10px;
+        }
+        .swiper-pagination-bullet-active {
+          background: $white;
+        }
+      }
+    }
+    .image-heading {
+      height: $categories-heading-image-height;
+      .bg-overlay {
+        z-index: 1;
+        background-color: rgba($black-c, .6);
+      }
+      ion-spinner {
+        z-index: 2;
+      }
+      @include spinner-color($white);
+      .heading-row {
+        height: 100%;
+        width: 100%;
+        z-index: 3;
+        position: absolute;
+        @include align-items(center);
+        .main-title {
+          @include menu-title-style($white);
+          font-size: 10vw;
+        }
+      }
+    }
+    .categories-title {
+      font-size: 1.2rem;
+      font-weight: 400;
+      letter-spacing: 0.7px;
+      color: $white-d;
+      margin: 8px 16px 16px;
+    }
+    .horizontal-categories {
+      border-bottom: 10px solid $white-a;
+      @include element-shadow();
+      padding-bottom: 16px;
+      .scroll-content {
+        position: relative;
+        contain: style layout;
+      }
+      preload-image {
+        border-radius: 50%;
+        img {
+          border-radius: 50%;
+        }
+      }
+      .categories-row {
+        @include flex-wrap(nowrap);
+        &::after {
+          content: '';
+          flex: 0 0 $categories-horizontal-list-padding;
+          max-width: $categories-horizontal-list-padding;
+        }
+      }
+      .horizontal-item {
+        padding: 0px 0px 0px $categories-horizontal-list-padding;
+      }
+    }
+    .grid-categories {
+      //padding: 0px ($categories-grid-padding/2);
+      @include flex-wrap(wrap);
+      .air {
+        background-color: $theme-color-2 !important;
+      }
+      .car {
+        background-color: $theme-color-4 !important;
+      }
+      .hotel {
+        background-color: $theme-color-3 !important;
+      }
+      .ticket {
+        background-color: $theme-color-5 !important;
+      }
+      .category-item {
+        padding: 0px ($categories-grid-padding/2) $categories-grid-padding;
+        height: 150px;
+        .bg-overlay {
+          z-index: 1;
+          background-color: rgba($black-c, .6);
+        }
+        ion-spinner {
+          z-index: 2;
+        }
+        @include spinner-color($white);
+        .heading-row {
+          height: 100%;
+          width: 100%;
+          z-index: 3;
+          @include align-items(center);
+          ion-icon {
+            @include menu-title-style($white);
+          }
+          .category-title {
+            @include menu-icon-style($white);
+          }
+        }
+      }
+    }
+    
+    .home-widget {
+      .item {
+        padding: 0;
+        &.item-divider {
+          padding: 8px 16px;
+        }
+        .item-inner {
+          padding: 0;
+          .label {
+            margin: 0;
+          }
+        }
+      }
+    }
+
+    ion-grid.list-hotels {
+      ion-row {
+        flex-wrap: wrap;
+        ion-col {
+          padding: 0.5rem;
+          .rating-label {
+            display: none;
+          }
+          h5 {
+            font-size: 1.5rem;
+          }
+          .hide-sm {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}

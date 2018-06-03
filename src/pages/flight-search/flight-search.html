@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>Encontre seu Voo</ion-title>
+  </ion-navbar>
+  <ion-toolbar>
+    <ion-segment color="light" [(ngModel)]="segment" (ionChange)="onSegmentChanged($event)">
+      <ion-segment-button value="round-trip" (ionSelect)="onSegmentSelected($event)">
+        {{'FLIGHT-SEARCH.ROUND-TRIP' | translate}}
+      </ion-segment-button>
+      <ion-segment-button value="one-way" (ionSelect)="onSegmentSelected($event)">
+        {{'FLIGHT-SEARCH.ONE-WAY' | translate}}
+      </ion-segment-button>
+    </ion-segment>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="page-content">
+  <form class="page-form" [formGroup]="formFlightSearch">
+    <div class="form-data-content">
+      <ion-item tappable (click)="openLocationSearchPageIda()">
+        <ion-label stacked>Origem</ion-label>
+        <ion-input type="text" formControlName="origin" required></ion-input>
+      </ion-item>
+      <ion-item tappable (click)="openLocationSearchPageVolta()">
+        <ion-label stacked>Destino</ion-label>
+        <ion-input type="text" formControlName="destination" required></ion-input>
+      </ion-item>
+      <ion-item tappable (click)="openDatePickerPage()">
+        <ion-label stacked>Data</ion-label>
+        <ion-input formControlName="dateTravel" readonly></ion-input>
+      </ion-item>
+      <ion-item tappable (click)="openAddPassengers()">
+        <ion-label stacked>Passageiros</ion-label>
+        <ion-input type="text" formControlName="passengers" required readonly></ion-input>
+      </ion-item>      
+    </div>
+  </form>
+</ion-content>
+<ion-footer>
+  <button ion-button icon-start block no-margin color="primary" tappable (click)="doSearch()">
+    Pesquisar Voos
+  </button>
+</ion-footer>
